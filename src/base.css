@@ -1,0 +1,21 @@
+:root {
+  --background-color: white;
+  --text-color: black;
+
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-rendering: optimizeLegibility;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: black;
+    --text-color: white;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

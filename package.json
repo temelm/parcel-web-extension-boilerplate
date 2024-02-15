@@ -1,0 +1,18 @@
+{
+  "name": "parcel-web-extension-boilerplate",
+  "version": "1.0.0",
+  "description": "@todo",
+  "scripts": {
+    "clean": "rimraf dist .parcel-cache",
+    "build": "parcel build src/manifest.json src/options.html --no-source-maps --no-cache",
+    "cleanbuild": "npm run clean && npm run build"
+  },
+  "keywords": ["@todo"],
+  "author": "Mustafa Temel",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.11.0",
+    "parcel": "^2.11.0",
+    "rimraf": "^5.0.5"
+  }
+}

@@ -1,5 +1,5 @@
 import './base.css';
+import { createParagraph, createOptionsButton } from './utils.js';
 
-const domParagraph = document.createElement('p');
-domParagraph.textContent = '🤓 Hello from panel.';
-document.body.appendChild(domParagraph);
+document.body.appendChild(createParagraph('🤓 Hello from panel.'));
+document.body.appendChild(createOptionsButton());

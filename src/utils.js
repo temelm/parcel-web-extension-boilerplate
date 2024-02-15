@@ -8,6 +8,9 @@ export function createParagraph (text) {
   return domParagraph;
 }
 
+/**
+ * @returns {HTMLButtonElement}
+ */
 export function createOptionsButton () {
   const domOptionsButton = document.createElement('button');
   domOptionsButton.textContent = 'Options';

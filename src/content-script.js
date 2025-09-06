@@ -1,8 +1,7 @@
-import { createParagraph } from "./utils.js";
-
 console.log("🤓 Hello from content script.");
 
-const domParagraph = createParagraph("🤓 Hello from content script.");
+const domParagraph = document.createElement("p");
+domParagraph.textContent = "🤓 Hello from content script.";
 domParagraph.style.color = "red";
 domParagraph.style.fontFamily = "monospace";
 domParagraph.style.fontSize = "2rem";

@@ -21,6 +21,12 @@
   },
   "devtools_page": "./devtools.html",
   "options_page": "./options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./content-script.js"]
+    }
+  ],
   "host_permissions": ["<all_urls>"],
   "permissions": ["storage"],
   "web_accessible_resources": [

@@ -32,7 +32,7 @@
   "permissions": ["storage"],
   "web_accessible_resources": [
     {
-      "resources": ["./panel.html", "./content-script.js"],
+      "resources": ["./panel.html"],
       "matches": ["<all_urls>"]
     }
   ]

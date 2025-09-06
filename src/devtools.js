@@ -1,5 +1,5 @@
 chrome.devtools.panels.create(
-  'Parcel Web Extension Boilerplate',
+  "Parcel Web Extension Boilerplate",
   null,
-  './panel.html'
+  "./panel.html"
 );
